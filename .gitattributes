@@ -1,0 +1,11 @@
+# Treat all text files as text
+* text=auto
+
+# Force binary for Unreal Engine asset files
+*.uasset binary
+*.umap binary
+
+# Prevent Git from modifying line endings for Visual Studio files
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf

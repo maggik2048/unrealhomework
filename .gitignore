@@ -1,0 +1,47 @@
+# ===============================
+# Unreal Engine
+# ===============================
+
+# Ignore build results
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.opensdf
+*.sdf
+*.VC.db
+
+# Ignore log files
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Visual Studio files
+*.suo
+*.user
+*.userprefs
+*.xcodeproj
+*.xcworkspace
+*.xcuserdatad
+
+# Ignore temporary build files
+*.obj
+*.pdb
+*.ipch
+*.iobj
+*.idb
+
+# Ignore auto-generated project files
+*.xcodeproj
+*.xcworkspace
+*.vs/
+.vscode/
+*.opensdf
+*.sdf
+
+# Ignore Unreal-specific caches
+DerivedDataCache/
+Saved/
+Intermediate/
