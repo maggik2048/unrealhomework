@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
@@ -11,4 +11,6 @@ class HOMEWORK_API AMyGameMode : public AGameModeBase
 
 public:
 	AMyGameMode();
+protected:
+	virtual void BeginPlay() override;
 };
